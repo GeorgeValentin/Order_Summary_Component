@@ -39,6 +39,12 @@
                     font-weight: 900;
                     font-size: 0.9rem;
                     text-decoration: underline;
+                    cursor: pointer;
+
+                    &:hover {
+                        text-decoration: none;
+                        color: $light-purple;
+                    }
                 }
             }
     
@@ -54,11 +60,19 @@
                 border-radius: 1rem;
                 margin: auto auto 1.5rem;
                 box-shadow: 8px 8px 10px $pale-blue;
+
+                &:hover {
+                    background-color: $light-purple;
+                }
             }
 
             &_cancel {
                 margin-bottom: 1.5rem;
                 color: $desaturated-blue;
+
+                &:hover {
+                    color: $dark-blue;
+                }
             }
 
         }
