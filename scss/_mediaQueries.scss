@@ -1,11 +1,7 @@
-@media screen and (min-width: 375px) {
+@media (max-width: 375px) {
     .wrapper {
         height: 100vh;
-        width: 85%;
-        position: absolute;
-        left: 0;
-        right: 0;
-        transform: translate(10px, 10px);
+        width: 85vw;
     }
 }
 
