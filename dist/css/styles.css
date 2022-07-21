@@ -1,0 +1,116 @@
+.flex-container {
+  display: flex;
+}
+
+.centered-flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.text-centered {
+  text-align: center;
+}
+
+.action-button {
+  cursor: pointer;
+  font-size: 0.9rem;
+  font-weight: 900;
+  width: 72%;
+}
+
+body {
+  font-family: "Red Hat Display", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: hsl(225deg, 100%, 94%);
+  font-size: 16px;
+}
+
+.top-svg-background-img {
+  position: absolute;
+  z-index: 0;
+}
+
+.wrapper {
+  height: 100vh;
+  width: 30%;
+  margin: auto;
+}
+
+.order-summary {
+  border: 1px solid black;
+  border-radius: 1rem;
+  position: relative;
+  z-index: 1;
+  background-color: #fff;
+}
+.order-summary_header_image {
+  width: 100%;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+.order-summary_header_title {
+  margin: 2rem auto 1rem;
+  font-weight: 900;
+  font-size: 1.5rem;
+  color: hsl(223deg, 47%, 23%);
+}
+.order-summary_header_description {
+  width: 80%;
+  margin: auto auto 1.25rem;
+  line-height: 1.5;
+  color: hsl(224deg, 23%, 55%);
+  font-weight: 500;
+}
+
+.order-summary_body_payment {
+  padding: 1.25rem 1rem;
+  background: hsl(225deg, 100%, 98%);
+  border-radius: 0.75rem;
+  width: 70%;
+  margin: auto auto 2rem;
+}
+.order-summary_body_payment .order-payment_wrapper {
+  align-items: center;
+  justify-content: space-between;
+}
+.order-summary_body_payment .order-payment_wrapper_inner .order-payment_description {
+  margin-left: 1rem;
+}
+.order-summary_body_payment .order-payment_wrapper_inner .order-payment_description_plan {
+  font-weight: 900;
+  margin-bottom: 0.15rem;
+  color: hsl(223deg, 47%, 23%);
+}
+.order-summary_body_payment .order-payment_wrapper_inner .order-payment_description_pay {
+  color: hsl(224deg, 23%, 55%);
+  font-weight: 500;
+}
+.order-summary_body_payment .order-payment_wrapper_action {
+  color: hsl(245deg, 75%, 52%);
+  font-weight: 900;
+  font-size: 0.9rem;
+  text-decoration: underline;
+}
+.order-summary_body_actions_proceed {
+  background-color: hsl(245deg, 75%, 52%);
+  color: hsl(225deg, 100%, 98%);
+  padding: 0.75rem 0.7rem;
+  border-radius: 1rem;
+  margin: auto auto 1.5rem;
+  box-shadow: 8px 8px 10px hsl(225deg, 100%, 94%);
+}
+.order-summary_body_actions_cancel {
+  margin-bottom: 1.5rem;
+  color: hsl(224deg, 23%, 55%);
+}/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,68 @@
+.order-summary {
+
+    &_body {
+
+        &_payment {
+            padding: 1.25rem 1rem;
+            background: $very-pale-blue;
+            border-radius: 0.75rem;
+            width: 70%;
+            margin: auto auto 2rem;
+
+            .order-payment_wrapper {
+    
+                align-items: center;
+                justify-content: space-between;
+    
+                &_inner {
+    
+                    .order-payment_description {
+                        margin-left: 1rem;
+    
+                        &_plan {
+                            font-weight: 900;
+                            margin-bottom: 0.15rem;
+                            color: $dark-blue;
+                        }
+    
+                        &_pay {
+                            color: $desaturated-blue;
+                            font-weight: 500;
+                        }
+    
+                    }
+    
+                }
+    
+                &_action {
+                    color: $bright-blue;
+                    font-weight: 900;
+                    font-size: 0.9rem;
+                    text-decoration: underline;
+                }
+            }
+    
+    
+        }
+
+        &_actions {
+            
+            &_proceed {
+                background-color: $bright-blue;
+                color: $very-pale-blue;
+                padding: 0.75rem 0.7rem;
+                border-radius: 1rem;
+                margin: auto auto 1.5rem;
+                box-shadow: 8px 8px 10px $pale-blue;
+            }
+
+            &_cancel {
+                margin-bottom: 1.5rem;
+                color: $desaturated-blue;
+            }
+
+        }
+    }
+
+}
+

@@ -1,0 +1,33 @@
+.order-summary {
+
+    border: 1px solid black;
+    border-radius: 1rem;
+    position: relative;
+    z-index: 1;
+    background-color: #fff;
+
+    &_header {
+
+        &_image {
+            width: 100%;
+            border-top-left-radius: 1rem;
+            border-top-right-radius: 1rem;
+        }
+
+        &_title {
+            margin: 2rem auto 1rem;
+            font-weight: 900;
+            font-size: 1.5rem;
+            color: $dark-blue;
+        }
+
+        &_description {
+            width: 80%;
+            margin: auto auto 1.25rem;
+            line-height: 1.5;
+            color: $desaturated-blue;
+            font-weight: 500;
+        }
+        
+    }
+}

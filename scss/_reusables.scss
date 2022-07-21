@@ -1,0 +1,39 @@
+// ## Colors
+
+// ### Primary
+$pale-blue: hsl(225, 100%, 94%);
+$bright-blue: hsl(245, 75%, 52%);
+
+// ### Neutral
+$very-pale-blue: hsl(225, 100%, 98%);
+$desaturated-blue: hsl(224, 23%, 55%);
+$dark-blue: hsl(223, 47%, 23%);
+
+.flex-container {
+    display: flex;
+}
+
+.centered-flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.text-centered {
+    text-align: center;
+}
+
+.action-button {
+    cursor: pointer;
+    font-size: 0.9rem;
+    font-weight: 900;
+    width: 72%;
+}
