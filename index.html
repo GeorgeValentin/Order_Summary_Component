@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Order summary card</title>
+
+  <!-- CSS StyleSheet -->
+  <link rel="stylesheet" href="./dist/css/styles.css">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+  <img class="top-svg-background-img" src="./images/pattern-background-desktop.svg" alt="top-background" />
+
+  <section class="wrapper centered-flex-container flex-column">
+    
+    <article class="order-summary">
+
+      <section class="order-summary_header">
+        <img class="order-summary_header_image" src="./images/illustration-hero.svg" alt="order-person-img" />
+
+        <div class="order-summary_header_title text-centered">
+          Order Summary
+        </div>
+
+        <div class="order-summary_header_description text-centered">
+          You can now listen to millions of songs, audiobooks, and podcasts on any 
+          device anywhere you like!
+        </div>
+      </section>
+
+      <section class="order-summary_body">
+
+        <div class="order-summary_body_payment">
+          <div class="order-payment_wrapper flex-container">
+            <div class="order-payment_wrapper_inner centered-flex-container">
+              <div class="order-payment_img">
+                <img src="/images/icon-music.svg" alt="payment-music-img" />
+              </div>
+
+              <div class="order-payment_description">
+                <div class="order-payment_description_plan">
+                  Annual Plan
+                </div>
+
+                <div class="order-payment_description_pay">
+                  $59.99/year
+                </div>
+              </div>
+            </div>     
+            
+            <a class="order-payment_wrapper_action">
+              Change
+            </a>
+          </div>
+
+        </div>
+        
+        <div class="order-summary_body_actions centered-flex-container flex-column  text-centered">
+          
+          <div class="order-summary_body_actions_proceed action-button">
+            <a>
+              Proceed to Payment
+            </a>
+          </div>
+
+          <div class="order-summary_body_actions_cancel action-button">
+            <a>
+              Cancel Order
+            </a>
+          </div>
+
+        </div>
+
+      </section>
+
+    </article>
+
+  </section>
+
+</body>
+</html>
