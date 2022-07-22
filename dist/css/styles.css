@@ -61,6 +61,7 @@ body {
   position: relative;
   z-index: 1;
   background-color: #fff;
+  box-shadow: 5px 5px 10px lightsteelblue;
 }
 .order-summary_header_image {
   width: 100%;
